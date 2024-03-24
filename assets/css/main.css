@@ -1,0 +1,10 @@
+@import './navigation.css';
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-wrapper {
+    padding: 40px;
+}

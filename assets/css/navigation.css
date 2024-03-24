@@ -1,0 +1,25 @@
+.navgation__wrapper {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+
+.navigation__link {
+    color: #352828;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navigation__hamburger {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navigation__item a {
+        display: none;
+    }
+}
