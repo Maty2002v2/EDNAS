@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js" type="module"></script>
     
     <title>EDANS</title>
 </head>
@@ -75,14 +75,64 @@
 
             <div class="mini-slider__about-us">
                 <p class="mini-slider__about-us-p">Ednas is an Architecture and Design Studio, providing clients with all services relating to Architecture and Interior Design covering all project phases. </p>
-                <button class="mini-slider__button">
+                <button class="move-button">
                     ABOUT US 
                     <img 
                         src="./assets/icons/rightArrow.svg" 
                         alt="Right arrow" 
                         width="16"
                         height="13"
-                        class="button-icon"
+                        class="move-button__icon"
+                    >
+                </button>
+            </div>
+        </section>
+
+        <section class="video-presentation">
+            <div class="video-presentation__video-box">
+                <img 
+                    src="./assets/images/videoPreview.jpeg" 
+                    alt="Video preview of our services, modern living room"
+                    width="1030"
+                    height="432"
+                    class="video-presentation__preview"
+                />
+                <img 
+                    src="./assets/icons/play.svg" 
+                    alt="Play button icon"
+                    width="43"
+                    height="31"
+                    class="video-presentation__play-button"
+                />
+                <iframe 
+                    src="https://www.youtube.com/embed/ASc2UXpmMuM?autoplay=1"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    autoplay="1"
+                    width="1030"
+                    height="432"
+                    class="video-presentation__video"
+                >
+                </iframe>
+            </div>
+            
+            <div class="video-presentation__about-us">
+                <p class="video-presentation__about-us-p">
+                    During the current trend of heightened sophistication and <br/> growing appreciation for 
+                    refined design aesthetics in the MENA <br/> region and Globally, 
+                    EDNAS stands at the forefront, offering <br/> clients the opportunity 
+                    to elevate their spaces to new levels of <br/> luxury, elegance, and individuality.
+                </p>
+                <button class="move-button">
+                    ABOUT US 
+                    <img 
+                        src="./assets/icons/rightArrow.svg" 
+                        alt="Right arrow" 
+                        width="16"
+                        height="13"
+                        class="move-button__icon"
                     >
                 </button>
             </div>

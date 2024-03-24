@@ -33,21 +33,6 @@
     font-size: 16px;
 }
 
-.mini-slider__button {
-    display: flex;
-    gap: 3px;
-    margin-top: 21px;
-    padding: 0px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-}
-
-.miniSlider__button-icon {
-    width: 16px;
-    height: 13px;
-}
-
 @media (max-width: 900px) {
     .mini-slider__logo {
         aspect-ratio: auto;

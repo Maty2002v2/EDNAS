@@ -1,5 +1,7 @@
 @import './navigation.css';
 @import './miniSlider.css';
+@import './videoBox.css';
+@import './components/moveButton.css';
 
 html, body {
     padding: 0px;
@@ -10,4 +12,12 @@ html, body {
     max-width: 1600px;
     margin: 0px auto;
     padding: 40px;
+}
+
+.hidde {
+    display: none!important;
+}
+
+.show {
+    display: block!important;
 }
