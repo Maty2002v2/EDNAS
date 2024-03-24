@@ -1,4 +1,5 @@
 @import './navigation.css';
+@import './miniSlider.css';
 
 html, body {
     padding: 0px;
@@ -6,5 +7,7 @@ html, body {
 }
 
 .page-wrapper {
+    max-width: 1600px;
+    margin: 0px auto;
     padding: 40px;
 }
