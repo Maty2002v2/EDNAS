@@ -8,7 +8,7 @@ html, body {
     margin: 0px;
 }
 
-.page-wrapper {
+.wrapper {
     max-width: 1600px;
     margin: 0px auto;
     padding: 40px;
