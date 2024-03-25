@@ -1,6 +1,7 @@
 @import './navigation.css';
 @import './miniSlider.css';
 @import './videoBox.css';
+@import './footer.css';
 @import './components/moveButton.css';
 
 html, body {
