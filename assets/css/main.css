@@ -2,6 +2,7 @@
 @import './miniSlider.css';
 @import './videoBox.css';
 @import './footer.css';
+@import './slider.css';
 @import './components/moveButton.css';
 
 html, body {
@@ -11,7 +12,8 @@ html, body {
 
 .wrapper {
     max-width: 1600px;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 40px;
 }
 
@@ -21,4 +23,10 @@ html, body {
 
 .show {
     display: block!important;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 15px;
+    }
 }
