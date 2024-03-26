@@ -31,7 +31,6 @@
 }
 
 .footer__link {
-    color: #352828;
     text-decoration: none;
     line-height: 22.4px;
 }
@@ -40,7 +39,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 83px;
-    color: #352828;
     font-size: 14px;
 }
 
