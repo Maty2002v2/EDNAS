@@ -1,0 +1,87 @@
+.contact-us {
+    position: relative;
+    margin-top: 150px;
+    color: #352828;
+}
+
+.contact-us__content {
+    position: absolute;
+    top: 86px;
+    left: 566px;
+}
+
+.contact-us__header {
+    display: block;
+    font-size: 80px;
+    line-height: 76px;
+    text-transform: uppercase;
+}
+
+.contact-us__header--transform {
+    transform: translateX(-344px);
+}
+
+.contact-us__p {
+    font-size: 16px;
+    line-height: 20.8px;
+    max-width: 380px;
+}
+
+@media (max-width: 1400px) {
+    .contact-us__header {
+        font-size: 60px;
+        line-height: 66px;
+    }
+
+    .contact-us__header--transform {
+        transform: translateX(-244px);
+    }
+
+    .contact-us__content {
+        position: absolute;
+        top: 86px;
+        left: 466px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-us__header {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .contact-us__header--transform {
+        transform: translateX(-144px);
+    }
+
+    .contact-us__content {
+        left: unset;
+        right: 30px;
+    }
+
+    .contact-us__p {
+        background-color: #fff;
+        padding: 15px;
+        border: 2px solid #352828;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-us__image {
+       display: none;
+    }
+
+    .contact-us__content {
+        position: static;
+    }
+
+    .contact-us__header--transform {
+        transform: unset;
+    }
+
+    .contact-us__p {
+        border: unset;
+        padding: 0px;
+        margin-left: auto;
+    }
+}

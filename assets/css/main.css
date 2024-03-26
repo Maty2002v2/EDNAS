@@ -3,11 +3,13 @@
 @import './videoBox.css';
 @import './footer.css';
 @import './slider.css';
+@import './contactUs.css';
 @import './components/moveButton.css';
 
 html, body {
     padding: 0px;
     margin: 0px;
+    color: #352828;
 }
 
 .wrapper {

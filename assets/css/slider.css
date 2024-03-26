@@ -54,7 +54,7 @@
         right: unset;
         left: 0px;
         bottom: -50px;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
     }
 }
