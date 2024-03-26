@@ -9,6 +9,10 @@
     left: 566px;
 }
 
+.contact-us__content .move-button {
+    margin-top: 40px;
+}
+
 .contact-us__header {
     display: block;
     font-size: 80px;
@@ -21,6 +25,7 @@
 }
 
 .contact-us__p {
+    margin: 40px 0px 0px 0px;
     font-size: 16px;
     line-height: 20.8px;
     max-width: 380px;

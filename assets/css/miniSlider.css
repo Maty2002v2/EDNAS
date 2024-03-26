@@ -40,6 +40,10 @@
         height: auto;
     }
 
+    .mini-slider__slider-wrapper {
+        align-items: stretch;
+    }
+
     .mini-slider__logo-wrapper {
         flex-wrap: wrap;
         gap: 20px;
@@ -47,5 +51,11 @@
 
     .mini-slider__logo-p {
         padding-bottom: 0px;
+    }
+
+
+    .miniSlider__slide {
+        width: 100%;
+        height: auto;
     }
 }
